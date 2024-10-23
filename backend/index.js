@@ -8,7 +8,7 @@ const cors = require('cors');
 //hi
 const app = express();
 const corsOptions = {
-    origin: 'https://test-gjk7.vercel.app/', 
+    origin: 'http://localhost:5173/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type','Authorization','multipart/form-data'],
     optionsSuccessStatus: 200, 
