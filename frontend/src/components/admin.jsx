@@ -22,7 +22,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/v1/getuser');
+        const response = await axios.get('test-rgyq.vercel.app/api/v1/getuser');
         setUsers(response.data);
       } catch (err) {
         console.error('Error fetching users:', err);

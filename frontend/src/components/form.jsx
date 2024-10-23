@@ -40,7 +40,7 @@ const UserForm = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/v1/newuser', formData, {
+      const response = await axios.post('https://test-rgyq-l6r3ffzui-saak1234s-projects.vercel.app/?vercelToolbarCode=CU1xaPux7eogsZF/api/v1/newuser', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       console.log('Response:', response);
