@@ -8,7 +8,7 @@ const cors = require('cors');
 //hi
 const app = express();
 const corsOptions = {
-    origin: 'https://test-sigma-eosin-14.vercel.app//', 
+    origin: 'https://test-sigma-eosin-14.vercel.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials:true,
     // allowedHeaders: ['Content-Type','Authorization','multipart/form-data'],
